@@ -12,7 +12,7 @@ public class TestCalc {
     public void subtractTest(){
         Calc s = new Calc();
         int subtract  = s.subtract(10,10);
-        Assert.assertEquals(20,subtract);
+        Assert.assertEquals(0,subtract);
     }
 
 }
